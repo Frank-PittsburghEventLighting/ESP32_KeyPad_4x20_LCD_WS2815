@@ -39,8 +39,8 @@ int brightness = 128, brightnessRate, Speed;
 #define CLOCK_PIN 0
 #define NUM_LEDS    60
 #define BRIGHTNESS  100
-//  #define LED_TYPE    WS2813  
-//  #define COLOR_ORDER GBR
+#define LED_TYPE    WS2813  
+#define COLOR_ORDER GBR
 //  #define FASTLED_ESP32_SPI_BUS HSP
 #define UPDATES_PER_SECOND  1000
 #define FRAMES_PER_SECOND  400
